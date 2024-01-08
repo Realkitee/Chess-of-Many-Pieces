@@ -12,7 +12,7 @@ int main()
 		printf("--------- 0.Exit ---------\n");
 		printf("--------- 1.Play ---------\n");
 		printf("--------------------------\n");
-		printf("ÇëÑ¡Ôñ(0/1) >");
+		printf("ä¸‰å­æ£‹æ¨¡å¼(0/1) >");
 		scanf("%d", &input);
 		if (input == 0) 
 		{
@@ -20,7 +20,7 @@ int main()
 		}
 		else 
 		{
-			printf("\nÈý×ÓÆåÄ£Ê½ >");
+			printf("\nÃˆÃ½Ã—Ã“Ã†Ã¥Ã„Â£ÃŠÂ½ >");
 			ModeThree();
 		}
 
