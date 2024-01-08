@@ -12,7 +12,7 @@ int main()
 		printf("--------- 0.Exit ---------\n");
 		printf("--------- 1.Play ---------\n");
 		printf("--------------------------\n");
-		printf("三子棋模式(0/1) >");
+		printf("请选择(0/1) >");
 		scanf("%d", &input);
 		if (input == 0) 
 		{
@@ -20,7 +20,7 @@ int main()
 		}
 		else 
 		{
-			printf("\nÈý×ÓÆåÄ£Ê½ >");
+			printf("\n三子棋模式 >");
 			ModeThree();
 		}
 
